@@ -1,5 +1,5 @@
 .App {
-  padding: 2rem;
+  padding: 1rem 2rem;
   /* text-align: center; */
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -20,4 +20,24 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+nav {
+  height: 50px;
+  /* background-color: aliceblue; */
+}
+nav div {
+  display: flex;
+  gap: 2rem;
+  margin-left: 5rem;
+}
+nav div p {
+  border: 1px solid gray;
+  background-color: white;
+
+  padding: 5px 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+nav div p:hover {
+  background-color: aqua;
 }

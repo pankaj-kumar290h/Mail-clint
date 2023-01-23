@@ -5,6 +5,9 @@ const AllMail = createSlice({
   name: "AllMail",
   initialState: data,
   reducers: {
+    DeletMail(state, action) {
+      return (state = state.filter((e) => e.id !== action.payload));
+    },
     ChangeRead(state, action) {
       const m = state.map((e) => {
         if (e.id === action.payload) {
@@ -17,6 +20,6 @@ const AllMail = createSlice({
   },
 });
 
-export const { ChangeRead } = AllMail.actions;
+export const { ChangeRead, DeletMail } = AllMail.actions;
 
 export default AllMail.reducer;

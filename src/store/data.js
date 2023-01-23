@@ -2,21 +2,22 @@ export const data = [
   {
     id: 1,
     From: "Pankaj Kumar",
+
     subject: "say hellow",
-    isRead: false,
+    isRead: true,
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facili explicabo nesciunt voluptas, excepturi dolor reprehenderit, aut optio necessitatibus culpa architecto laudantium. Quidem, facere consequuntur praesentium dolores molestiae ipsa nostrum quas illo,debitis animi quis assumenda dicta sunt! Ipsum commodi voluptatibus odio consectetur. Nobis, veritatis. Iste dolore quisquam et quidem numquam.",
   },
   {
     id: 2,
     isRead: false,
-    From: "Pankaj Kumar",
+    From: "Sundeep",
     subject: "say hellow",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facili explicabo nesciunt voluptas, excepturi dolor reprehenderit, aut optio necessitatibus culpa architecto laudantium. Quidem, facere consequuntur praesentium dolores molestiae ipsa nostrum quas illo,debitis animi quis assumenda dicta sunt! Ipsum commodi voluptatibus odio consectetur. Nobis, veritatis. Iste dolore quisquam et quidem numquam.",
   },
   {
     id: 3,
-    isRead: false,
-    From: "Pankaj Kumar",
+    isRead: true,
+    From: "Akash",
     subject: "say hellow",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facili explicabo nesciunt voluptas, excepturi dolor reprehenderit, aut optio necessitatibus culpa architecto laudantium. Quidem, facere consequuntur praesentium dolores molestiae ipsa nostrum quas illo,debitis animi quis assumenda dicta sunt! Ipsum commodi voluptatibus odio consectetur. Nobis, veritatis. Iste dolore quisquam et quidem numquam.",
   },
@@ -43,7 +44,7 @@ export const data = [
   },
   {
     id: 7,
-    isRead: false,
+    isRead: true,
     From: "Pankaj Kumar",
     subject: "say hellow",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facili explicabo nesciunt voluptas, excepturi dolor reprehenderit, aut optio necessitatibus culpa architecto laudantium. Quidem, facere consequuntur praesentium dolores molestiae ipsa nostrum quas illo,debitis animi quis assumenda dicta sunt! Ipsum commodi voluptatibus odio consectetur. Nobis, veritatis. Iste dolore quisquam et quidem numquam.",
