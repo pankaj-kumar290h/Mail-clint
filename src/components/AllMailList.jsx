@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 function AllMailList({ prop }) {
   const SelectedMailId = useSelector((state) => state.Selectedmail);
   const dispatch = useDispatch();
-  const { isRead, id, From, subject } = prop;
+  const { date, isRead, id, From, subject } = prop;
   const handleclick = (id) => (event) => {
     dispatch(SelectedMail(id));
     dispatch(ChangeRead(id));
@@ -33,7 +33,7 @@ function AllMailList({ prop }) {
   return (
     <div
       style={{
-        background: isRead ? "#FFFFE8" : "#F48484",
+        background: isRead ? "#FFFFE8" : "gray",
         border: SelectedMailId === id ? "3px solid blue" : "red",
       }}
       key={id}
@@ -67,9 +67,12 @@ function AllMailList({ prop }) {
         <p>
           Subject:<span> {subject} </span>
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        <p className="msg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem...
         </p>
+        <div>
+          <p className="time">Date:- {date}</p>
+        </div>
       </div>
       <button onClick={deletmail(id)} className="delet-mail-btn">
         <MdDeleteForever />

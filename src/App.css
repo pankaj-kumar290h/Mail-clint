@@ -13,13 +13,13 @@
   max-height: 90vh;
 }
 
-.MailBody {
-  /* background-color: aquamarine; */
-  overflow-y: scroll;
-}
-
 ::-webkit-scrollbar {
-  display: none;
+  background-color: gray;
+  width: 7px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #915acd;
 }
 nav {
   height: 50px;

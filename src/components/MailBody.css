@@ -5,10 +5,32 @@
   justify-content: center;
   border: 1px solid gray;
   min-height: 80vh;
+  max-height: 90vh;
+  overflow-y: hidden;
   border-radius: 10px;
+
   background-color: white;
 }
 
 .mail-body h3 {
   margin-top: 3px;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.mail-body h3 span {
+  color: gray;
+}
+.time {
+  color: gray;
+}
+
+.mail-body-msg {
+  border: 1px solid gray;
+  padding: 2rem 1rem;
+  overflow-y: scroll;
+  max-height: 60vh;
+  min-height: 60vh;
+
+  border-radius: 5px;
 }

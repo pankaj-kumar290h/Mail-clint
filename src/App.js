@@ -30,9 +30,11 @@ function App() {
       </nav>
       <div className="App">
         <div className="AllMail">
-          {msg.map((data) => (
-            <AllMailList key={data.id} prop={data} />
-          ))}
+          {msg.length ? (
+            msg.map((data) => <AllMailList key={data.id} prop={data} />)
+          ) : (
+            <h3>No msg Found</h3>
+          )}
         </div>
         <div className="MailBody">
           <MailBody />
