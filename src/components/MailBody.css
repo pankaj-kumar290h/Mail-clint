@@ -1,0 +1,14 @@
+.mail-body {
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid gray;
+  min-height: 80vh;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.mail-body h3 {
+  margin-top: 3px;
+}
