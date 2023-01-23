@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mail-clint/static/css/main.c396c59e.css",
+    "main.js": "/Mail-clint/static/js/main.3e62d6b7.js",
+    "static/js/787.71c17749.chunk.js": "/Mail-clint/static/js/787.71c17749.chunk.js",
+    "index.html": "/Mail-clint/index.html",
+    "main.c396c59e.css.map": "/Mail-clint/static/css/main.c396c59e.css.map",
+    "main.3e62d6b7.js.map": "/Mail-clint/static/js/main.3e62d6b7.js.map",
+    "787.71c17749.chunk.js.map": "/Mail-clint/static/js/787.71c17749.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c396c59e.css",
+    "static/js/main.3e62d6b7.js"
+  ]
+}
